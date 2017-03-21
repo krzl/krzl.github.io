@@ -1,10 +1,8 @@
 ---
 layout: post
-title: You're up and running!
+title: GraphicsEngine
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+Biblioteka umożliwiająca renderowanie obiektów 3D przy wykorzystaniu DirectX11. 
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+Wspiera animacje szkieletowe oraz cienie, które zostały zaimplementowane techniką shadow volume. Pozwala na wykorzystanie własnych shaderów. Parametry tych shaderów można definiować przy pomocy materiałów.
